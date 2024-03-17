@@ -1,0 +1,123 @@
+.category-container {
+  width: 100%;
+  min-width: 430px;
+  max-width: 430px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.category-subcontainer{
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.category-container .header {
+  display: flex;
+  justify-content: center;
+  background-color: #1fa45b;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px 0;
+}
+
+.category-container .header h2 {
+  font-size: 17px;
+  font-weight: 600px;
+  color: #FFFFFF;
+}
+
+.category-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    background: #E8F0F5;
+    padding: 10px;
+}
+
+.category-card .left{
+    height: 60px;
+    min-width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #CFE0E5;
+    border-radius: 10px;
+}
+
+.category-card .middle{
+    width: 100%;
+    padding: 0 15px;
+}
+
+.category-card .middle h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #1FA45B;
+}
+
+.category-card .middle p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.category-card .right{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.category-card .right h2{
+    font-size: 16px;
+    font-weight: 600;
+    color: #393939;
+}
+
+.category-card .right p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7E7E7E;
+}
+
+.subcategory-card{
+    padding: 0 20px;
+}
+
+.dotted-border {
+    border-left: 3px dotted #1FA45B;
+    min-height: 40px;
+    /* width: 1px;  */
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.dotted-border .circle{
+    height: 8px;
+    width: 8px;
+    background: #1FA45B;
+    border-radius: 50%;
+    position: absolute;
+    left: -6px;
+}
+
+.dotted-border .title{
+    padding: 0 15px;
+}
+
+.dotted-border .title p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #373737;
+}
+
+.subcategory-card:hover .title p{
+    transition: 0.5s ease;
+    color: #1FA45B;
+}

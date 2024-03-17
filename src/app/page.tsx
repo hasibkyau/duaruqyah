@@ -3,6 +3,9 @@ import Link from "next/link";
 import ProductCard from "@/app/components/ProductCard";
 import SideNav from "./shared/SideNav/SideNav";
 import Header from "./shared/Header/Header";
+import Categories from './home/Categories/Categories'
+import DuaPage from './home/DuaPage/DuaPage'
+import Settings from './home/Settings/Settings'
 
 export default function Home() {
   return (
@@ -17,7 +20,16 @@ export default function Home() {
           <Header></Header>
         </div>
         <div className="content">
-          <h1>Hello world</h1>
+          {/* <Home></Home> */}
+          <div className="categories">
+            <Categories></Categories>
+            </div>
+            <div className="dua-page">
+                <DuaPage></DuaPage>            
+            </div>
+            <div className="settings">
+                <Settings></Settings>
+            </div>
         </div>
       </div>
     </div>
