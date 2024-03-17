@@ -13,8 +13,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  padding: 1rem;
+  padding: 0 1rem;
 }
 
 @layer utilities {
@@ -22,3 +21,19 @@ body {
     text-wrap: balance;
   }
 }
+
+
+.main{
+  display: flex;
+  width: 100%;
+  
+}
+
+.main-container{
+  width: 100%;
+  padding: 0 20px;
+}
+
+
+
+

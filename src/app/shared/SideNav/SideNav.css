@@ -1,0 +1,33 @@
+.side-nav{
+    width: 100px;
+    max-width: 100px;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .side-nav .menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+}
+
+.side-nav ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.logo{
+  position: absolute;
+  top: 0;
+}
+
+.bottom{
+  position: absolute;
+  bottom: 0;
+}
