@@ -1,0 +1,100 @@
+.dua-container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dua-container .dua-card{
+    padding: 15px 30px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.dua-card {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.dua-card .card-title {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.dua-card .green-bold{
+    font-size: 16;
+    font-weight: 600;
+    color: #1FA45B;
+    padding-right: 10px;
+}
+
+.dua-card .black-bold {
+    font-size: 16;
+    font-weight: 600;
+    color: #393939;
+    padding-right: 10px;
+}
+
+.dua-card .black-medium {
+    font-size: 16;
+    font-weight: 500;
+    color: #393939
+}
+
+.dua-card .black-basic {
+    font-size: 16;
+    font-weight: 400;
+    color: #393939
+}
+
+.dua-card .black-italian {
+    font-size: 16;
+    font-style: italic;
+    font-weight: 400;
+    color: #393939
+}
+
+.dua-card .arabic-basic {
+    font-size: 24px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #393939;
+    direction: rtl; /* Set text direction to right-to-left */
+    text-align: right; /* Align text to the right within its container */
+  }
+
+  .dua-card .arabic-des {
+    width: 100%; /* Set a fixed width */
+    direction: rtl; /* Set text direction to right-to-left */
+  }
+  
+  .dua-card .arabic-basic {
+    font-size: 24px;
+    line-height: 70px;
+    font-weight: 400;
+    color: #393939;
+    text-align: right; /* Align text to the right within its container */
+  }
+
+.dua-card .card-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer ul {
+    display: flex;
+    gap: 40px;
+}
+
+.card-footer ul li {
+    height: 24px;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dua-card .text-box .transliteration {
+    padding-bottom: 10px;
+}

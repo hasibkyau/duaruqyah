@@ -37,10 +37,10 @@ body {
 }
 
 .content{
-  border: 2px solid blue;
   display: flex;
   width: 100%;
   justify-content: space-between;
+  gap: 30px;
 
 }
 
