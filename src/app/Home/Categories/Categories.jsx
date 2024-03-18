@@ -12,13 +12,8 @@ const Categories = () => {
       </div>
 
       <div className="category-subcontainer">
-        <div className="search-box">
-          <input
-            type="text"
-            className="border border-gray-300 rounded-md px-4 py-2 focus:outline-none focus:border-blue-500"
-            placeholder="Search by Dua Name"
-          />
-          <div className="button">
+        <div className="search-box border border-gray-300 rounded-md ">
+        <div className="button">
             <svg
               width="24"
               height="24"
@@ -35,6 +30,12 @@ const Categories = () => {
               />
             </svg>
           </div>
+          <input
+            type="text"
+            className="rounded-md py-2 focus:outline-none "
+            placeholder="Search by Dua Name"
+          />
+
         </div>
 
         <div className="card-container">
@@ -52,7 +53,7 @@ const Categories = () => {
             </div>
           </div>
           <div className="subcategory-card">
-            <div className="left">
+            <div className="item">
               <div class="dotted-border">
                 <div className="circle"></div>
                 <div className="title">
@@ -61,7 +62,7 @@ const Categories = () => {
               </div>
             </div>
 
-            <div className="left">
+            <div className="item">
               <div class="dotted-border">
                 <div className="circle"></div>
                 <div className="title">
@@ -70,7 +71,7 @@ const Categories = () => {
               </div>
             </div>
 
-            <div className="left">
+            <div className="item">
               <div class="dotted-border">
                 <div className="circle"></div>
                 <div className="title">
@@ -79,7 +80,7 @@ const Categories = () => {
               </div>
             </div>
 
-            <div className="left">
+            <div className="item">
               <div class="dotted-border">
                 <div className="circle"></div>
                 <div className="title">
